@@ -1,0 +1,29 @@
+.header-image {
+  img {
+    object-fit: cover; /* Makes sure the image covers the container without distortion */
+    width: 100%;
+  }
+}
+.header {
+  height: 100vh;
+  overflow: hidden; /* Ensures that anything outside the div will be hidden */
+  display: flex;
+  position: relative;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+}
+.header-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  color: white; /* Text color */
+  background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+  text-align: center; /* Center text alignment */
+}

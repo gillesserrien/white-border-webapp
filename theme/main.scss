@@ -1,40 +1,13 @@
 
 //00
+@import '00_common/_typography.scss';
 @import '00_common/_variables.scss';
-
 //01
 @import '01_fundaments/_fonts.scss';
-@import '01_fundaments/_base.scss';
-@import '01_fundaments/_animation.scss';
-
+@import '01_fundaments/_text.scss';
 //02
 @import '02_atoms/_buttons.scss';
-@import '02_atoms/_gradient.scss';
-@import '02_atoms/_gallery-text.scss';
-@import '02_atoms/_partners-text.scss';
-@import '02_atoms/_ad-image.scss';
-@import '02_atoms/_ad-title.scss';
-@import '02_atoms/_hero-headline.scss';
-@import '02_atoms/_footer-icons.scss';
-@import '02_atoms/_carousel-bulletpoints.scss';
 
-//03
-@import '03_molecules/features-card.scss';
-@import '03_molecules/content-card.scss';
-@import '03_molecules/_testimonial-card.scss';
-@import '03_molecules/_slideshow-partners.scss';
 //04
-@import '04_organisms/_navbar.scss';
-@import '04_organisms/_hero.scss';
-@import '04_organisms/_features.scss';
-@import '04_organisms/_content.scss';
-@import '04_organisms/_gallery.scss';
-@import '04_organisms/_partners.scss';
-@import '04_organisms/_testimonial.scss';
-@import '04_organisms/_ad.scss';
-@import '04_organisms/_footer.scss';
-//05
-@import '05_layouts/_margin.scss';
-@import '05_layouts/_header.scss';
-//06
-@import '06_pages/_home.scss';
+@import '04_organisms/_header.scss';
+@import '04_organisms/_upload.scss';

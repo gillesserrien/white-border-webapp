@@ -1,0 +1,16 @@
+button{
+    border: none; /* Removes the border */
+    background: none; /* Optional: Removes any default background */
+    padding: 0; /* Optional: Resets padding if needed */
+    margin: 0; /* Optional: Resets margin if needed */
+    font: inherit; /* Optional: Inherits font style from parent */
+    cursor: pointer; /* Optional: Changes cursor to pointer */
+}
+
+
+.button-main{
+    padding: 15px 40px 15px 40px;
+    color: white;
+    background-color: $color-pastel-purple;
+    border-radius: 0.5rem;
+}
